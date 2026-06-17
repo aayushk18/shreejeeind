@@ -1,7 +1,16 @@
 @import "tailwindcss";
 
+@theme {
+  --color-krishna-blue: #0A3068;
+  --color-krishna-blue-light: #1A4B96;
+  --color-saffron: #F47E20;
+  --color-saffron-light: #FF9933;
+  --color-white-bg: #FFFFFF;
+  --color-gray-bg: #F8FAFC;
+}
+
 :root {
-  --background: #ffffff;
+  --background: #FFFFFF;
   --foreground: #171717;
 }
 
@@ -14,8 +23,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #FFFFFF; /* Force light theme or adapt dark theme? Let's use light theme for now */
+    --foreground: #171717;
   }
 }
 
@@ -23,4 +32,5 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
 }
