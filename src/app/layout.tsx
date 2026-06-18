@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Shree Jee Industries | Serving packaging and corrugation industries across Noida",
+    default: "Shree Jee Industries | Serving packaging and corrugation all across Noida",
     template: "%s | Shree Jee Industries",
   },
   icons: {
