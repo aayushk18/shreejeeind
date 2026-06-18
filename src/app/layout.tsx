@@ -117,7 +117,9 @@ export const metadata: Metadata = {
     // Brand
     "Shree Jee Industries",
     "Shree Jee Industries Noida",
-    "Shree Jee Industries Sector 63 Noida"
+    "Shree Jee Noida",
+    "Shree Jee Industries Sector 63 Noida",
+    "Shree Jee Sector 63 Noida"
 
 
   ],
