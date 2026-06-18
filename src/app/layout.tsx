@@ -21,6 +21,9 @@ export const metadata: Metadata = {
     default: "Shree Jee Industries | Best corrugated paper manufacturer in Noida",
     template: "%s | Shree Jee Industries",
   },
+  icons: {
+    icon: "/favicon.ico"
+  }
 
   description:
     "Shree Jee Industries is a leading corrugated paper manufacturer in Noida, supplying high-quality Liner Paper and Fluted Paper to packaging companies, corrugated box manufacturers, and industrial buyers across North India. Based in Sector 63, Noida, we specialize in bulk supply, consistent quality, and reliable delivery.",
