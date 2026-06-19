@@ -48,8 +48,8 @@ export default function Contact() {
                 <div>
                   <h3 className="text-lg font-bold text-gray-900 mb-1">Phone Number</h3>
                   <p className="text-gray-600 mb-2">Call us for immediate assistance or sales inquiries.</p>
-                  <a href="tel:+919810645268" className="text-krishna-blue font-bold text-lg hover:underline block">
-                    +91 98106 45268
+                  <a href="tel:+9199625178997" className="text-krishna-blue font-bold text-lg hover:underline block">
+                    +91 96251 78997
                   </a>
                 </div>
               </div>
@@ -83,7 +83,7 @@ export default function Contact() {
 
             <div className="mt-8">
               <a
-                href={`https://wa.me/919810645268?text=${encodeURIComponent("Hello Shree Jee Industries, I would like to know more about your packaging products.")}`}
+                href={`https://wa.me/919625178997?text=${encodeURIComponent("Hello Shree Jee Industries, I would like to know more about your packaging products.")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-[#25D366] hover:bg-[#1ebd5b] text-white font-bold py-4 px-6 rounded-2xl flex items-center justify-center gap-3 transition-colors shadow-sm"
