@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.shreejeeindustries.in/og-image.png?v=1",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Contact Shree Jee Industries - Corrugated Paper Manufacturer Noida",
