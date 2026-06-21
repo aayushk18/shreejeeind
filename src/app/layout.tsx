@@ -35,15 +35,14 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Shree Jee Industries",
-    description:
-      "Manufacturer and supplier of Corrugated Paper, Liner Paper, and Fluted Paper in Noida. Serving packaging and corrugation industries across Noida, Ghaziabad and Delhi NCR",
+    description: "Manufacturer and supplier of Corrugated Paper, Liner Paper, and Fluted Paper in Noida. Serving packaging and corrugation industries across Noida, Ghaziabad and Delhi NCR",
     url: "https://www.shreejeeindustries.in/",
     siteName: "Shree Jee Industries",
     locale: "en_IN",
     type: "website",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://www.shreejeeindustries.in/og-image.png?v=1",
         width: 1200,
         height: 630,
         alt: "Shree Jee Industries noida - Corrugated Paper Manufacturer",
