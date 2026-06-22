@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s | Shree Jee Industries",
   },
   icons: {
-    icon: "/favicon_v2.ico"
+    icon: "/favicon_v3.ico"
   },
 
   description:
