@@ -9,5 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${baseUrl}/contact` },
         { url: `${baseUrl}/why-choose-us` },
         { url: `${baseUrl}/products` },
+        { url: `${baseUrl}/quote` },
+        { url: `${baseUrl}/industries` },
     ];
 }
