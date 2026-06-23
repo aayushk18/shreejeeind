@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     template: "%s | Shree Jee Industries",
   },
   icons: {
-    icon: "/logo.png"
+    icon: "/logo-512.png"
   },
 
   description:
@@ -160,7 +160,7 @@ export default function RootLayout({
               "@type": "Organization",
               "name": "Shree Jee Industries",
               "url": "https://www.shreejeeindustries.in",
-              "logo": "https://www.shreejeeindustries.in/logo.png",
+              "logo": "https://www.shreejeeindustries.in/logo-512.png",
             },
             {
               "@context": "https://schema.org",
