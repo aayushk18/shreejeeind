@@ -18,6 +18,11 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
+
+
+  metadataBase: new URL("https://www.shreejeeindustries.in"),
+
+  applicationName: "Shree Jee Industries",
   title: {
     default: "Shree Jee Industries | Serving packaging and corrugation all across Noida",
     template: "%s | Shree Jee Industries",
@@ -147,15 +152,15 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-white text-gray-900">
         <Script
-          id="website-schema"
+          id="organization-schema"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "WebSite",
-              url: "https://www.shreejeeindustries.in/",
+              "@type": "Organization",
               name: "Shree Jee Industries",
-              alternateName: "Shree Jee Industries Noida",
+              url: "https://www.shreejeeindustries.in",
+              logo: "https://www.shreejeeindustries.in/favicon.ico",
             }),
           }}
         />
