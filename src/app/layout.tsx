@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     template: "%s | Shree Jee Industries",
   },
   icons: {
-    icon: "/favicon_v3.ico"
+    icon: "/og-image.png"
   },
 
   description:
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.shreejeeindustries.in/og-image.png?v=1",
+        url: "https://www.shreejeeindustries.in/og-image.png?v=2",
         width: 1200,
         height: 630,
         alt: "Shree Jee Industries noida - Corrugated Paper Manufacturer",
@@ -152,16 +152,23 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-white text-gray-900">
         <Script
-          id="organization-schema"
+          id="structured-data"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
+            __html: JSON.stringify([{
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Shree Jee Industries",
-              url: "https://www.shreejeeindustries.in",
-              logo: "https://www.shreejeeindustries.in/favicon.ico",
-            }),
+              "name": "Shree Jee Industries",
+              "url": "https://www.shreejeeindustries.in",
+              "logo": "https://www.shreejeeindustries.in/og-image.png",
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Shree Jee Industries",
+              "url": "https://www.shreejeeindustries.in"
+            },]
+            ),
           }}
         />
 
