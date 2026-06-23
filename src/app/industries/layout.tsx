@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Industries We Serve",
   description: "We supply customized corrugated paper solutions for E-commerce, FMCG & Food, Electronics, Pharma, and Retail packaging across North India.",
   openGraph: {
-    title: "Industries We Serve | Shree Jee Industries",
+    title: "Industries We Serve ",
     description: "We supply customized corrugated paper solutions for E-commerce, FMCG & Food, Electronics, Pharma, and Retail packaging across North India.",
     url: "https://www.shreejeeindustries.in/industries",
     siteName: "Shree Jee Industries",

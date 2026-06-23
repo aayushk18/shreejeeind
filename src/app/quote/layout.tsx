@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Request a Quote",
   description: "Request a free, competitive price quote for premium liner paper, fluted paper, and bulk corrugated packaging materials from Shree Jee Industries.",
   openGraph: {
-    title: "Request a Quote | Shree Jee Industries",
+    title: "Request a Quote ",
     description: "Request a free, competitive price quote for premium liner paper, fluted paper, and bulk corrugated packaging materials from Shree Jee Industries.",
     url: "https://www.shreejeeindustries.in/quote",
     siteName: "Shree Jee Industries",

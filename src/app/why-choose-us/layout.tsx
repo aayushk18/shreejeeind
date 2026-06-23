@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Why Choose Us",
   description: "Find out why businesses across Noida and Delhi NCR choose Shree Jee Industries for in-house manufacturing, quality control, and bulk corrugated paper supply.",
   openGraph: {
-    title: "Why Choose Us | Shree Jee Industries",
+    title: "Why Choose Us",
     description: "Find out why businesses across Noida and Delhi NCR choose Shree Jee Industries for in-house manufacturing, quality control, and bulk corrugated paper supply.",
     url: "https://www.shreejeeindustries.in/why-choose-us",
     siteName: "Shree Jee Industries",

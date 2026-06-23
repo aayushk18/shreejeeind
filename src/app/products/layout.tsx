@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Our Products",
   description: "Explore our range of premium Liner Paper and Fluted Paper designed with high bursting strength (BF) and compression strength for corrugated box manufacturing.",
   openGraph: {
-    title: "Our Products | Shree Jee Industries",
+    title: "Our Products ",
     description: "Explore our range of premium Liner Paper and Fluted Paper designed with high bursting strength (BF) and compression strength for corrugated box manufacturing.",
     url: "https://www.shreejeeindustries.in/products",
     siteName: "Shree Jee Industries",
