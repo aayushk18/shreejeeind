@@ -37,7 +37,7 @@ export default function Home() {
         <div className="absolute -top-24 -right-24 w-96 h-96 bg-krishna-blue/5 rounded-full blur-3xl"></div>
         <div className="absolute top-1/2 -left-24 w-72 h-72 bg-saffron/5 rounded-full blur-3xl"></div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-32 relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-20 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -94,9 +94,9 @@ export default function Home() {
       </section>
 
       {/* Highlights Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-14 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Partner With Us?</h2>
             <div className="w-24 h-1 bg-saffron mx-auto rounded-full"></div>
           </div>
@@ -123,10 +123,10 @@ export default function Home() {
       </section>
       
       {/* CTA Section */}
-      <section className="py-20 bg-krishna-blue text-white">
+      <section className="py-14 bg-krishna-blue text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to upgrade your packaging?</h2>
-          <p className="text-xl text-blue-100 mb-10">
+          <p className="text-xl text-blue-100 mb-6">
             Let's discuss your requirements and provide you with the best corrugated paper solutions.
           </p>
           <Link

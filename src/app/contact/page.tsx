@@ -3,19 +3,51 @@
 import { motion } from "framer-motion";
 import { MapPin, Phone, Mail, Clock, MessageCircle } from "lucide-react";
 
+const LinkedinIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...props}
+  >
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+    <rect width="4" height="12" x="2" y="9" />
+    <circle cx="4" cy="4" r="2" />
+  </svg>
+);
+
+const InstagramIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...props}
+  >
+    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+  </svg>
+);
+
 export default function Contact() {
   return (
     <div className="bg-white min-h-screen">
       {/* Page Header */}
-      <div className="bg-krishna-blue py-20 px-4 text-center">
+      <div className="bg-krishna-blue py-12 px-4 text-center">
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Contact Us</h1>
         <p className="text-xl text-blue-100 max-w-2xl mx-auto">
           We're here to answer any questions you have about our products and manufacturing capabilities.
         </p>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
 
           {/* Contact Information */}
           <motion.div
@@ -24,9 +56,9 @@ export default function Contact() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">Get In Touch</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Get In Touch</h2>
 
-            <div className="space-y-8">
+            <div className="space-y-4 md:space-y-6">
               <div className="flex items-start gap-4 p-6 bg-gray-50 rounded-2xl border border-gray-100">
                 <div className="bg-white p-3 rounded-full shadow-sm text-saffron shrink-0">
                   <MapPin className="h-6 w-6" />
@@ -90,6 +122,28 @@ export default function Contact() {
               >
                 <MessageCircle className="h-6 w-6" />
                 Chat with us on WhatsApp
+              </a>
+            </div>
+
+            <div className="mt-6 flex gap-4 items-center justify-center lg:justify-start">
+              <span className="text-gray-700 font-semibold mr-2">Follow us:</span>
+              <a
+                href="https://www.linkedin.com/company/shreejee-ind/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#0077b5]/10 hover:bg-[#0077b5] text-[#0077b5] hover:text-white p-3 rounded-full transition-all duration-300"
+                aria-label="LinkedIn"
+              >
+                <LinkedinIcon className="h-6 w-6" />
+              </a>
+              <a
+                href="https://www.instagram.com/shreejee_ind/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#e1306c]/10 hover:bg-[#e1306c] text-[#e1306c] hover:text-white p-3 rounded-full transition-all duration-300"
+                aria-label="Instagram"
+              >
+                <InstagramIcon className="h-6 w-6" />
               </a>
             </div>
           </motion.div>

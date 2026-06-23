@@ -33,9 +33,9 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <div className="bg-white min-h-screen pb-24">
+    <div className="bg-white min-h-screen pb-12">
       {/* Page Header */}
-      <div className="bg-gray-50 py-20 px-4 text-center border-b border-gray-100 relative overflow-hidden">
+      <div className="bg-gray-50 py-12 px-4 text-center border-b border-gray-100 relative overflow-hidden">
         <div className="absolute top-0 right-0 w-64 h-64 bg-saffron/5 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-krishna-blue/5 rounded-full blur-3xl"></div>
         <div className="relative z-10">
@@ -46,8 +46,8 @@ export default function WhyChooseUs() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="space-y-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="space-y-6">
           {reasons.map((reason, index) => (
             <motion.div
               key={index}
@@ -55,13 +55,13 @@ export default function WhyChooseUs() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6 }}
-              className={`flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} items-center gap-8 md:gap-16 bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-gray-100 hover:shadow-md transition-shadow`}
+              className={`flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} items-center gap-4 md:gap-8 bg-white rounded-3xl p-5 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow`}
             >
-              <div className="w-24 h-24 shrink-0 bg-blue-50 rounded-2xl flex items-center justify-center border border-blue-100 shadow-inner">
+              <div className="w-20 h-20 shrink-0 bg-blue-50 rounded-2xl flex items-center justify-center border border-blue-100 shadow-inner">
                 {reason.icon}
               </div>
               <div className={`flex-1 text-center ${index % 2 === 0 ? 'md:text-left' : 'md:text-right'}`}>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">{reason.title}</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">{reason.title}</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">{reason.description}</p>
               </div>
             </motion.div>

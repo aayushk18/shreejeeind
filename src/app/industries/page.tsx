@@ -33,9 +33,9 @@ export default function Industries() {
   ];
 
   return (
-    <div className="bg-gray-50 min-h-screen pb-24">
+    <div className="bg-gray-50 min-h-screen pb-12">
       {/* Page Header */}
-      <div className="bg-krishna-blue py-24 px-4 text-center relative overflow-hidden">
+      <div className="bg-krishna-blue py-14 px-4 text-center relative overflow-hidden">
         {/* Decorative pattern */}
         <div className="absolute inset-0 opacity-10">
           <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
@@ -56,7 +56,7 @@ export default function Industries() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 -mt-10 relative z-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 -mt-6 relative z-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {industries.map((industry, index) => (
             <motion.div
@@ -65,12 +65,12 @@ export default function Industries() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-white rounded-3xl p-8 shadow-md border border-gray-100 hover:shadow-xl hover:-translate-y-2 transition-all group"
+              className="bg-white rounded-3xl p-6 shadow-md border border-gray-100 hover:shadow-xl hover:-translate-y-2 transition-all group"
             >
-              <div className="bg-orange-50 w-20 h-20 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-saffron group-hover:text-white transition-colors duration-300 [&>svg]:group-hover:text-white">
+              <div className="bg-orange-50 w-20 h-20 rounded-2xl flex items-center justify-center mb-5 group-hover:bg-saffron group-hover:text-white transition-colors duration-300 [&>svg]:group-hover:text-white">
                 {industry.icon}
               </div>
-              <h3 className="text-2xl font-bold text-krishna-blue mb-4">{industry.name}</h3>
+              <h3 className="text-2xl font-bold text-krishna-blue mb-2">{industry.name}</h3>
               <p className="text-gray-600 leading-relaxed">
                 {industry.description}
               </p>

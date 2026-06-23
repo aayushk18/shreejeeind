@@ -11,10 +11,10 @@ export default function Quote() {
   };
 
   return (
-    <div className="bg-gray-50 min-h-screen py-20 px-4">
+    <div className="bg-gray-50 min-h-screen py-10 px-4">
       <div className="max-w-3xl mx-auto">
-        <div className="text-center mb-12">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mb-6">
+        <div className="text-center mb-8">
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mb-4">
             <FileText className="h-8 w-8 text-krishna-blue" />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Request a Quote</h1>

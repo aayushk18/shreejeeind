@@ -8,16 +8,16 @@ export default function About() {
   return (
     <div className="bg-white">
       {/* Page Header */}
-      <div className="bg-krishna-blue py-20 px-4 text-center">
+      <div className="bg-krishna-blue py-12 px-4 text-center">
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">About Shree Jee Industries</h1>
         <p className="text-xl text-blue-100 max-w-2xl mx-auto">
           Delivering strength and reliability through premium corrugated paper manufacturing since inception.
         </p>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Story Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center mb-12">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -48,18 +48,18 @@ export default function About() {
         </div>
 
         {/* Mission & Values */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="bg-gray-50 p-8 rounded-2xl border border-gray-100 text-center hover:shadow-md transition-shadow"
+            className="bg-gray-50 p-6 rounded-2xl border border-gray-100 text-center hover:shadow-md transition-shadow"
           >
-            <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm">
+            <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm">
               <Award className="h-8 w-8 text-krishna-blue" />
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-4">Quality First</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Quality First</h3>
             <p className="text-gray-600">Uncompromising standards in raw material selection and manufacturing processes.</p>
           </motion.div>
           <motion.div
@@ -67,12 +67,12 @@ export default function About() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="bg-gray-50 p-8 rounded-2xl border border-gray-100 text-center hover:shadow-md transition-shadow"
+            className="bg-gray-50 p-6 rounded-2xl border border-gray-100 text-center hover:shadow-md transition-shadow"
           >
-            <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm">
+            <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm">
               <Target className="h-8 w-8 text-krishna-blue" />
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-4">Reliability</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Reliability</h3>
             <p className="text-gray-600">Consistent product performance and dependable supply chains for bulk orders.</p>
           </motion.div>
           <motion.div
@@ -80,12 +80,12 @@ export default function About() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="bg-gray-50 p-8 rounded-2xl border border-gray-100 text-center hover:shadow-md transition-shadow"
+            className="bg-gray-50 p-6 rounded-2xl border border-gray-100 text-center hover:shadow-md transition-shadow"
           >
-            <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm">
+            <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm">
               <MapPin className="h-8 w-8 text-krishna-blue" />
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-4">Affordability</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Affordability</h3>
             <p className="text-gray-600">Competitive pricing without sacrificing the structural integrity of our paper.</p>
           </motion.div>
         </div>
@@ -96,11 +96,11 @@ export default function About() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="bg-krishna-blue rounded-3xl p-8 md:p-12 text-white flex flex-col md:flex-row items-center justify-between shadow-xl"
+          className="bg-krishna-blue rounded-3xl p-6 md:p-10 text-white flex flex-col md:flex-row items-center justify-between shadow-xl"
         >
-          <div className="mb-8 md:mb-0 md:mr-8 max-w-lg">
-            <h2 className="text-3xl font-bold mb-4 text-saffron">Our Facility</h2>
-            <p className="text-lg text-blue-100 mb-6">
+          <div className="mb-6 md:mb-0 md:mr-8 max-w-lg">
+            <h2 className="text-3xl font-bold mb-2 text-saffron">Our Facility</h2>
+            <p className="text-lg text-blue-100 mb-4">
               Strategically located in Sector 63, Noida, our manufacturing unit is perfectly positioned to serve the NCR region and beyond with exceptional speed and efficiency.
             </p>
             <div className="flex items-center gap-3">
