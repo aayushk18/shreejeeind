@@ -35,11 +35,11 @@ const InstagramIcon = (props: React.SVGProps<SVGSVGElement>) => (
 
 export default function Footer() {
   return (
-    <footer className="bg-krishna-blue text-white pt-8 md:pt-10 pb-4 md:pb-5">
+    <footer className="bg-krishna-blue text-white pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-12 mb-8">
-          <div className="col-span-2 md:col-span-1">
-            <Link href="/" className="flex items-center gap-3 mb-4">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+          <div className="md:col-span-1">
+            <Link href="/" className="flex items-center gap-3 mb-6">
               <div className="bg-white p-2 rounded-lg">
                 <img src="/logo.png" alt="Shree Jee Industries" className="h-10 w-auto object-contain" />
               </div>
@@ -48,10 +48,10 @@ export default function Footer() {
                 <span className="text-xl font-semibold text-saffron tracking-wider">INDUSTRIES</span>
               </div>
             </Link>
-            <p className="text-blue-100 mb-4">
+            <p className="text-blue-100 mb-6">
               Quality Corrugation, Built for Every Business. Providing premium liner and fluted paper across India.
             </p>
-            <div className="flex gap-4 mb-4">
+            <div className="flex gap-4 mb-6">
               <a
                 href="https://www.linkedin.com/company/shreejee-ind/"
                 target="_blank"
@@ -73,8 +73,8 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="col-span-1">
-            <h3 className="text-lg font-bold mb-4 text-saffron">Quick Links</h3>
+          <div>
+            <h3 className="text-lg font-bold mb-6 text-saffron">Quick Links</h3>
             <ul className="space-y-3">
               <li><Link href="/about" className="text-blue-100 hover:text-white transition-colors">About Us</Link></li>
               <li><Link href="/products" className="text-blue-100 hover:text-white transition-colors">Products</Link></li>
@@ -83,8 +83,8 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="col-span-1">
-            <h3 className="text-lg font-bold mb-4 text-saffron">Services</h3>
+          <div>
+            <h3 className="text-lg font-bold mb-6 text-saffron">Services</h3>
             <ul className="space-y-3">
               <li className="text-blue-100">Liner Paper</li>
               <li className="text-blue-100">Fluted Paper</li>
@@ -93,8 +93,8 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="col-span-2 md:col-span-1">
-            <h3 className="text-lg font-bold mb-4 text-saffron">Contact Us</h3>
+          <div>
+            <h3 className="text-lg font-bold mb-6 text-saffron">Contact Us</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-saffron shrink-0 mt-1" />
@@ -114,7 +114,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-krishna-blue-light pt-4 md:pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="border-t border-krishna-blue-light pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-blue-200 text-sm">
             © {new Date().getFullYear()} Shree Jee Industries. All rights reserved.
           </p>
