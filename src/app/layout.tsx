@@ -160,7 +160,7 @@ export default function RootLayout({
               "@type": "Organization",
               "name": "Shree Jee Industries",
               "url": "https://www.shreejeeindustries.in",
-              "logo": "https://www.shreejeeindustries.in/logo-512.png",
+              "logo": "https://www.shreejeeindustries.in/favicon_v3.ico",
             },
             {
               "@context": "https://schema.org",
