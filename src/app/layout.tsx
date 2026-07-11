@@ -162,7 +162,7 @@ export default function RootLayout({
               "@type": "Organization",
               "name": "Shree Jee Industries",
               "url": "https://www.shreejeeindustries.in",
-              "logo": "https://www.shreejeeindustries.in/favicon_v3.ico",
+              "logo": "https://www.shreejeeindustries.in/favicon.png",
             },
             {
               "@context": "https://schema.org",
